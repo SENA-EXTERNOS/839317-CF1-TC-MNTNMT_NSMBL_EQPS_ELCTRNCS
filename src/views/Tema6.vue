@@ -9,7 +9,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-7.order-sm-last.order-md-first
-        AcordionA(tipo="b" clase-tarjeta="tarjeta")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta fcp35 fcab15")
           div(titulo="Servicio al cliente y atención al cliente")
             p.mb-0 Está relacionado directamente con el agregado que se da en cada producto que ofrece la organización, haciendo que los usuarios se sientan atendidos y considerados en sus necesidades. Existen diferencias entre el servicio al cliente y la atención al cliente; el servicio al cliente se basa en el manejo de las necesidades del usuario (el manejo de las quejas, sugerencias o reclamos), resolución de problemas (los cuales se pueden resolver de manera remota o presencial) y el soporte técnico (intervención de los elementos), mientras que la atención al cliente está relacionado con todo el proceso de las ventas, enfocados a brindar experiencias a los usuarios, buscando la satisfacción completa al adquirir los productos o servicios de calidad anticipando las posibles necesidades.
           div(titulo="Estatuto del consumidor")
@@ -22,7 +22,7 @@
         figure
           img(src="@/assets/curso/temas/t6/f1.png", alt="personas de servicio al cliente")
 
-          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t6/f2.png')})`}",data-aos="fade-right"
       )

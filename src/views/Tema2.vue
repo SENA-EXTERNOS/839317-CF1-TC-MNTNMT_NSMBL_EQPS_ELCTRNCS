@@ -34,40 +34,40 @@
 
     p Existen diferentes tipos de equipos para la ejecución de las tareas de mantenimiento y ensamble electrónico. A continuación, se presentan algunos de ellos:
 
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .tarjeta.bg_slide_1.p-4.mb-5
       SlyderA(tipo="b")
-        .row.align-items-center
-          .col-md-7.mb-4.mb-md-0
+        .row.align-items-center.justify-content-around
+          .col-md-6.mb-4.mb-md-0
             h4 Equipo de diagnóstico avanzado de tarjetas electrónicas
             p Aunque suelen ser equipos poco conocidos por su alto costo, así como por la experiencia requerida para el manejo correcto por el personal que lo opere, es un equipo que permite diagnosticar por medio de un software los fallos presentados en cada módulo de las tarjetas.
-          .col-md-5(data-aos="fade-up-right")
+          .col-md-4(data-aos="fade-up-right")
             figure
               img(src='@/assets/curso/temas/t2/f4.png', alt='imagen relacionada')
-        .row.align-items-center
-          .col-md-7.mb-4.mb-md-0
+        .row.align-items-center.justify-content-around
+          .col-md-6.mb-4.mb-md-0
             h4 Osciloscopio
             p Es un instrumento que realiza mediciones electrónicas, representadas en una gráfica en dos dimensiones de amplitud (Eje Y) vs tiempo (Eje X), presentando los valores en forma de coordenadas cartesianas en una pantalla en una gráfica llamada oscilograma. Estos equipos pueden ser análogos o digitales.
-          .col-md-5(data-aos="fade-up-left")
+          .col-md-4(data-aos="fade-up-left")
             figure
               img(src='@/assets/curso/temas/t2/f5.png', alt='imagen relacionada')
-        .row.align-items-center
-          .col-md-7.mb-4.mb-md-0
+        .row.align-items-center.justify-content-around
+          .col-md-6.mb-4.mb-md-0
             h4 Generadores de señal
             p Dispositivo electrónico utilizado en los laboratorios, el cual genera patrones de diferentes señales periódicas o no periódicas, que pueden ser análogas o digitales.
-          .col-md-5(data-aos="fade-down-right")
+          .col-md-4(data-aos="fade-down-right")
             figure
               img(src='@/assets/curso/temas/t2/f6.png', alt='imagen relacionada')
-        .row.align-items-center
-          .col-md-7.mb-4.mb-md-0
+        .row.align-items-center.justify-content-around
+          .col-md-6.mb-4.mb-md-0
             h4 Fuente de voltaje
             p Son aquellos dispositivos que suministran energía a todo el sistema, se pueden encontrar fuentes de tensión o de corriente (la corriente puede ser alterna o directa).
-          .col-md-5(data-aos="fade-down-left")
+          .col-md-4(data-aos="fade-down-left")
             figure
               img(src='@/assets/curso/temas/t2/f7.png', alt='imagen relacionada')
 
     Separador
 
-    #t_2_3.titulo-segundo.color-acento-contenido
+    #t_2_3.titulo-segundo.color-acento-contenido.mb-5
       h2 2.3 Herramientas
 
     p Las herramientas son instrumentos necesarios para la ejecución adecuada de cualquier montaje o reparación de los dispositivos. Existen de diversos tipos. A continuación, se presentan dos de ellos, las manuales y las especializadas. 
@@ -78,7 +78,7 @@
 
     .col-md-10.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
-        p 
+        p.mb-0 
           b Figura 1.
           br
           em Herramientas manuales
@@ -90,23 +90,23 @@
 
     p Dentro de las herramientas utilizadas se requieren algunas que son más especializadas, para realizar trabajos muy específicos.
 
-    TabsB.color-acento-botones.mb-5
+    TabsB.color-acento-botones.mb-5.tabs_bg_1
       .py-4.py-md-5(titulo="Estado de soldadura electrónica" :icono="require('@/assets/curso/temas/t2/f9.svg')")
-        .row.align-items-center
+        .row.align-items-center.px-4
           .col-md-7.mb-4.mb-md-0
             p Este tipo de herramientas son utilizadas por personas expertas en montajes y reparaciones para soldar componentes electrónicos, que son bastante delicados y las partes son muy pequeñas. Dentro de las reparaciones más comunes se encuentran los smartphones, consolas de video, computadores y electrodomésticos.
           .col-md-5(data-aos="zoom-in-right")
             figure
               img(src='@/assets/curso/temas/t2/f12.png', alt='imagen relacionada')
       .py-4.py-md-5(titulo="Multímetros Digitales" :icono="require('@/assets/curso/temas/t2/f10.svg')")
-        .row.align-items-center
+        .row.align-items-center.px-4
           .col-md-7.mb-4.mb-md-0
             p También conocido como Tester, es un instrumento de medición y comprobación que permite realizar diferentes tomas de parámetros y magnitudes eléctricas, entre las más comunes están el voltaje, amperaje y la corriente.
           .col-md-5(data-aos="zoom-out-left")
             figure
               img(src='@/assets/curso/temas/t2/f13.png', alt='imagen relacionada')
       .py-4.py-md-5(titulo="Pinzas voltiamperimétricas" :icono="require('@/assets/curso/temas/t2/f11.svg')")
-        .row.align-items-center
+        .row.align-items-center.px-4
           .col-md-7.mb-4.mb-md-0
             p Es una herramienta muy utilizada en el campo de la electrónica, por ser una combinación entre un multímetro digital y un sensor de corriente, el cual es medido por una pinza. Los cables o sondas son las encargadas de medir la tensión.
           .col-md-5(data-aos="zoom-out-right")
@@ -150,7 +150,7 @@
 
     Separador
 
-    #t_2_6.titulo-segundo.color-acento-contenido
+    #t_2_6.titulo-segundo.color-acento-contenido.mb-5
       h2 2.6 Aprovisionamiento y solicitud
 
     p El aprovisionamiento y solicitud es muy particular para cada organización, estos se realizan de acuerdo con sus necesidades y procesos.

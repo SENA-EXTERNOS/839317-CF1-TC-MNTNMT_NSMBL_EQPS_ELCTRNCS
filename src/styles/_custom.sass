@@ -32,11 +32,56 @@
     transform: rotate(360deg)
 
 //Colores
+$gr1: #29398A, 50%, #CEC2F2
+$gr2: #d6d0e8, #fefefe
+
+@mixin gradient($direction, $list)
+  background: -webkit-linear-gradient($direction, $list) !important
+  background: -moz-linear-gradient($direction, $list) !important
+  background: -o-linear-gradient($direction, $list) !important
+  background: linear-gradient($direction, $list) !important
+
+.gr1, .gr1.bloque-texto-a.color-secundario
+  @include gradient(90deg,$gr1)
+.gr2
+  @include gradient(90deg,$gr2)
+  border-radius: 1rem
+    
 
 .cp
   color: $color-primario !important
 .fcp
   background-color: $color-primario !important
+.fcp75, .bloque-texto-g.color-primario
+  background-color: rgba(200,192,225,.75) !important
+.fcp35, .tarjeta.fcp35
+  background-color: rgba(116,83,216,.35) !important
+.fcacClarito, .bloque-texto-g__texto
+  background-color: #B3DECA !important
+.fcab15, .acordion__activo.fcab15
+  background-color: rgba(253,169,41,.15) !important
+
+.tabs_bg_1
+  .tabs-b__content-item
+    background-image: url('../assets/curso/temas/tabs_bg_1.png')
+    background-size: cover
+    background-position: left center
+
+.bg_slide_1
+  background-image: url('../assets/curso/temas/bg_slide_1.png')
+  background-size: cover
+  background-position: center
+
+.tarjeta.fcp35.acordion__activo
+  background-color: rgba(240, 238, 246, .9) !important
+
+.acordion__accion__btn--a
+  background-color: $color-acento-contenido !important
+
+
+
+
+
 
 //varios
 

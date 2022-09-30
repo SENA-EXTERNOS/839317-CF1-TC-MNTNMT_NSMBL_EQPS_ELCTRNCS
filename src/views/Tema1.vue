@@ -26,7 +26,7 @@
         figure
           img(src="@/assets/curso/temas/t1/f2.png" alt="persona escribiendo en un laptop")
       .col-md-7
-        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta fcp35")
           div(titulo="Listado de equipos")
             p.mb-0 Cada organización debe elaborar y tener a disposición un listado de sus equipos, esto le permitirá conocer cuáles son sus activos por cada uno de sus procesos. Este listado se debe organizar por zonas, sectores, producciones, etc.
           div(titulo="Sistema de codificación")
@@ -37,10 +37,10 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Documentación e información 
 
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-secundario.gr1.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8
-          .bloque-texto-a__texto.p-4
+          .bloque-texto-a__texto.p-4.fcacClarito
             p.mb-0 Todos los equipos de las organizaciones se constituyen en un bien tangible que representa parte de su riqueza y se deben de preservar de la mejor manera; una buena forma de hacerlo es recopilando la mayor cantidad de información que se pueda de los mismos y con el máximo detalle posible. Dentro de estos documentos, se encuentran los que son suministrados por el fabricante y otros, construidos por la organización con el fin de describir su uso y definir los procesos que podrán ser atendidos con cada uno.
         .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
 
@@ -49,27 +49,27 @@
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Documentoación e información
 
-    .gradiente1.p-4.mb-5
+    .gr2.p-4.mb-5
       p La hoja de vida de los equipos es uno de los documentos más importantes que debe de tener toda organización, pero generalmente no se ha tomado de este modo. En este documento se debe incluir la información técnica propia del equipo y el registro de las intervenciones que ha tenido; de esta manera, se podrá tener un control minucioso de los mantenimientos, lubricantes, repuestos, costos y frecuencias.
       p.mb-0 Este documento debe estar al alcance del personal de mantenimiento y debe ser diligenciado por los responsables de las intervenciones de las diferentes órdenes. La hoja de vida de los equipos se compone de dos secciones:
 
-      TabsB.color-acento-botones
-        .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/temas/t1/f4.svg')")
-          .row
-            .col-md-7.mb-4.mb-md-0
-              p Cada equipo debe de tener este documento porque contiene datos únicos, algunos pueden ser código, información general, especificaciones técnicas y otros datos relevantes. La información se puede obtener de las placas de los fabricantes del equipo, manuales, catálogos e información recopilada por la empresa.
-            .col-md-5(data-aos="flip-left", data-aos-easing="ease-out-cubic", data-aos-duration="2000")
-              figure
-                img(src='@/assets/curso/temas/t1/f6.png', alt='imagen relacionada')
+    TabsB.color-acento-botones.tabs_bg_1
+      .py-4.py-md-5(titulo="Ficha técnica" :icono="require('@/assets/curso/temas/t1/f4.svg')")
+        .row.align-items-center.px-4
+          .col-md-7.mb-4.mb-md-0
+            p.mb-0 Cada equipo debe de tener este documento porque contiene datos únicos, algunos pueden ser código, información general, especificaciones técnicas y otros datos relevantes. La información se puede obtener de las placas de los fabricantes del equipo, manuales, catálogos e información recopilada por la empresa.
+          .col-md-5(data-aos="flip-left", data-aos-easing="ease-out-cubic", data-aos-duration="2000")
+            figure
+              img(src='@/assets/curso/temas/t1/f6.png', alt='imagen relacionada')
 
-        .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/curso/temas/t1/f5.svg')")
-          .row
-            .col-md-7.mb-4.mb-md-0(data-aos="fade-left", data-aos-anchor="#example-anchor", data-aos-offset="500", data-aos-duration="500")
-              figure
-                img(src='@/assets/curso/temas/t1/f7.png', alt='imagen relacionada')
-            .col-md-5
-              p Este manual debe describir todos los aspectos necesarios para la correcta operación de los equipos; contiene información indispensable para realizar el montaje, operar de forma correcta cada uno de los componentes, realizar los mantenimientos necesarios y con la frecuencia correcta, además de tener la información pertinente sobre aspectos de seguridad que garanticen la preservación de la integridad del usuario.
-              p Este manual debe ser proporcionado por el fabricante o distribuidor del equipo y escrito en un idioma comprensible para el usuario, en lo posible el que maneje el país al que va dirigido.
+      .py-4.py-md-5(titulo="Manual de instrucciones" :icono="require('@/assets/curso/temas/t1/f5.svg')")
+        .row.align-items-center.px-4
+          .col-md-7
+            p Este manual debe describir todos los aspectos necesarios para la correcta operación de los equipos; contiene información indispensable para realizar el montaje, operar de forma correcta cada uno de los componentes, realizar los mantenimientos necesarios y con la frecuencia correcta, además de tener la información pertinente sobre aspectos de seguridad que garanticen la preservación de la integridad del usuario.
+            p.mb-0 Este manual debe ser proporcionado por el fabricante o distribuidor del equipo y escrito en un idioma comprensible para el usuario, en lo posible el que maneje el país al que va dirigido.
+          .col-md-5.mb-4.mb-md-0(data-aos="fade-left", data-aos-anchor="#example-anchor", data-aos-offset="500", data-aos-duration="500")
+            figure
+              img(src='@/assets/curso/temas/t1/f7.png', alt='imagen relacionada')
 
 </template>
 
