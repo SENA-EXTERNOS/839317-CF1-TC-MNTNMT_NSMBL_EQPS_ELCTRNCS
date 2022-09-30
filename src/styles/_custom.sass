@@ -2,13 +2,19 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 5%
+    right: 85%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 65%
+    right: 14%
+  &-3
+    animation: rotacion 5s ease-in-out infinite alternate
+    position: absolute
+    top: 11%
+    right: 19%
+    width: 80%
 
 
 @keyframes float1
@@ -17,3 +23,25 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes rotacion
+  0%
+    transform: rotate(0deg)
+
+  100%
+    transform: rotate(360deg)
+
+//Colores
+
+.cp
+  color: $color-primario !important
+.fcp
+  background-color: $color-primario !important
+
+//varios
+
+.bloque-texto-a.color-secundario
+  &::before
+    background-image: url('../assets/curso/temas/t1/f3.png') !important
+    background-size: cover
+    background-color: transparent !important
