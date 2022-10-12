@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Entorno de trabajo
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -19,7 +19,9 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Área de trabajo
 
-    p El área de trabajo debe disponer de un ambiente de aprendizaje convencional y de un ambiente de taller para el mantenimiento, con un área mínima de 400 m2.
+    p El área de trabajo debe disponer de un ambiente de aprendizaje convencional y de un ambiente de taller para el mantenimiento, con un área mínima de 400 m
+      span.text-small(style="position: relative;bottom: 5px;") 2
+      |.
 
     .row.justify-content-around.mb-5
       .col-md-5(data-aos="zoom-in")
@@ -46,7 +48,7 @@
         .row.align-items-center.justify-content-around
           .col-md-6.mb-4.mb-md-0
             h4 Osciloscopio
-            p Es un instrumento que realiza mediciones electrónicas, representadas en una gráfica en dos dimensiones de amplitud (Eje Y) vs tiempo (Eje X), presentando los valores en forma de coordenadas cartesianas en una pantalla en una gráfica llamada oscilograma. Estos equipos pueden ser análogos o digitales.
+            p Es un instrumento que realiza mediciones electrónicas, representadas en una gráfica en dos dimensiones de amplitud (Eje Y) vs. tiempo (Eje X), presentando los valores en forma de coordenadas cartesianas en una pantalla en una gráfica llamada oscilograma. Estos equipos pueden ser análogos o digitales.
           .col-md-4(data-aos="fade-up-left")
             figure
               img(src='@/assets/curso/temas/t2/f5.png', alt='imagen relacionada')
@@ -98,7 +100,7 @@
           .col-md-5(data-aos="zoom-in-right")
             figure
               img(src='@/assets/curso/temas/t2/f12.png', alt='imagen relacionada')
-      .py-4.py-md-5(titulo="Multímetros Digitales" :icono="require('@/assets/curso/temas/t2/f10.svg')")
+      .py-4.py-md-5(titulo="Multímetros digitales" :icono="require('@/assets/curso/temas/t2/f10.svg')")
         .row.align-items-center.px-4
           .col-md-7.mb-4.mb-md-0
             p También conocido como Tester, es un instrumento de medición y comprobación que permite realizar diferentes tomas de parámetros y magnitudes eléctricas, entre las más comunes están el voltaje, amperaje y la corriente.
@@ -116,7 +118,7 @@
     Separador
 
     #t_2_4.titulo-segundo.color-acento-contenido
-      h2 2.4 elementos de trabajo
+      h2 2.4 Elementos de trabajo
 
     p Se requieren los siguientes elementos para el desempeño óptimo de las labores.
 

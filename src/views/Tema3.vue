@@ -7,6 +7,9 @@
         span 3
       h1 Herramientas, equipos e instrumentos
 
+    .cajon.color-acento-contenido.p-4.mb-4
+      p.mb-0 Durante algún tiempo, las herramientas, equipos e instrumentos eran considerados como simples herramientas de fácil adquisición y utilización; hoy día esta concepción ha cambiado debido a la variedad de sus aplicaciones y tecnología desarrollada, cada vez son más especializadas y modernas, convirtiéndose en instrumentos optimizadores de tiempo y de calidad en los productos obtenidos.
+
     p A continuación, se describen algunos de los elementos que están asociados a las herramientas, equipos e instrumentos:
 
     .row

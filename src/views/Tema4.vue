@@ -15,7 +15,9 @@
           .tarjeta.color-acento-botones.fcab15.p-4(titulo="Manual de usuario")
             p El propósito de este documento es brindar la información necesaria para el adecuado uso de un equipo, enseñando a los usuarios a utilizar las funciones y procesos de una forma correcta y efectiva, deben de ser entendibles y de fácil consulta. En su elaboración, suele incluir ilustraciones y gráficos, con instrucciones sencillas.
           .tarjeta.color-acento-botones.fcab15.p-4(titulo="Manual de fabricante")
-            p También conocido como manual de instrucciones, dado que debe de cumplir con todas las recomendaciones proporcionadas por el fabricante para evitar fallos y averías en los equipos y así, hacer el mejor uso de estos. Brinda información relevante acerca del empaque, transporte, cuidados especiales, así como de instalación.
+            p También conocido como manual de instrucciones, dado que debe de cumplir con 
+              b todas 
+              | las recomendaciones proporcionadas por el fabricante para evitar fallos y averías en los equipos y así, hacer el mejor uso de estos. Brinda información relevante acerca del empaque, transporte, cuidados especiales, así como de instalación.
       .col-md-3.order-sm-first.order-md-last(data-aos="flip-left")
         figure
           img(src="@/assets/curso/temas/t4/f1.png", alt="persona leyendo un manual")

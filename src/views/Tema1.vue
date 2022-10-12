@@ -47,7 +47,7 @@
     Separador
 
     #t_1_3.titulo-segundo.color-acento-contenido
-      h2 1.3 Documentoación e información
+      h2 1.3 Hoja de vida de equipos
 
     .gr2.p-4.mb-5
       p La hoja de vida de los equipos es uno de los documentos más importantes que debe de tener toda organización, pero generalmente no se ha tomado de este modo. En este documento se debe incluir la información técnica propia del equipo y el registro de las intervenciones que ha tenido; de esta manera, se podrá tener un control minucioso de los mantenimientos, lubricantes, repuestos, costos y frecuencias.
