@@ -17,8 +17,8 @@
             p.mb-0 Está relacionado directamente con el agregado que se da en cada producto que ofrece la organización, haciendo que los usuarios se sientan atendidos y considerados en sus necesidades. Existen diferencias entre el 
               b servicio al cliente 
               | y la atención al cliente; el servicio al cliente se basa en el manejo de las necesidades del usuario (el manejo de las quejas, sugerencias o reclamos), resolución de problemas (los cuales se pueden resolver de manera remota o presencial) y el soporte técnico (intervención de los elementos), mientras que la 
-              b atención 
-              | al cliente está relacionado con todo el proceso de las ventas, enfocados a brindar experiencias a los usuarios, buscando la satisfacción completa al adquirir los productos o servicios de calidad anticipando las posibles necesidades.
+              b atención al cliente 
+              | está relacionado con todo el proceso de las ventas, enfocados a brindar experiencias a los usuarios, buscando la satisfacción completa al adquirir los productos o servicios de calidad anticipando las posibles necesidades.
           div(titulo="Estatuto del consumidor")
             p.mb-0 Se rige por la normatividad vigente en el país y en Colombia hace sus veces la Ley 1480 de 2011, la cual busca proteger, promover y garantizar los derechos que tienen los consumidores, de igual manera, ampara el respeto a su dignidad y sus intereses económicos en temas como la salud y acceso a la información, entre otras.
           div(titulo="Garantía legal")
