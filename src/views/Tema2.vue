@@ -132,7 +132,7 @@
             p Los elementos mínimos necesarios para el desempeño correcto de las labores son: 1 tablero acrílico, 30 sillas, 3 gabinetes con entrepaños, 12 mesas y 1 escritorio.
         
       .py-3.py-md-4(titulo="Tecnologías de la Información y comunicación")
-        .row
+        .row.justify-content-around.align-items-center
           .col-md-6
             p Se requiere 1 televisor de mínimo 55- 4 k, 30 computadores portátiles o de escritorio con especificaciones informáticas actuales y conectividad a Internet 16 GB RAM.
           .col-md-6.mb-4.mb-md-0(data-aos="fade-left")
@@ -167,7 +167,7 @@
             p Cada organización tiene políticas de posibles proveedores, tanto para insumos de producción o provisión de repuestos y mantenimiento. No existe normatividad que le exija a la compañía realizar algún tipo de contratación.
         
       .py-3.py-md-4(titulo="Manual de Instrucciones")
-        .row
+        .row.justify-content-around.align-items-center
           .col-md-6
             p Las necesidades de las empresas determinan la compra de los repuestos más críticos para el proceso. Para piezas o partes específicas que deben ser importadas, se debe tener presente los tiempos que implica este proceso, por ello, es importante conocer las fechas de vencimiento y el costo de las partes que se tengan en 
               em stock.
