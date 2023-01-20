@@ -12,16 +12,14 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t2/f1.png')})`}", data-aos="fade-right"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Los entornos de trabajo, sin importar la labor que se desempeñe en este, deben garantizar, desde su diseño, unas condiciones mínimas de seguridad para el personal que lo ocupa como dispositivos y/o de elementos de protección que estén diseñados para este fin.
+        p.mb-0 Los entornos de trabajo, sin importar la labor que se desempeñe en ellos, deben garantizar, desde su diseño, unas condiciones mínimas de seguridad para el personal que lo ocupa, como dispositivos y/o elementos de protección que se encuentren diseñados para esta finalidad.
 
-    Separador
+    .row.mt-5
+      h3 Área de trabajo
 
-    #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Área de trabajo
-
-    p El área de trabajo debe disponer de un ambiente de aprendizaje convencional y de un ambiente de taller para el mantenimiento, con un área mínima de 400 m
-      span.text-small(style="position: relative;bottom: 5px;") 2
-      |.
+    p El espacio de trabajo, debe ser proyectado con la capacidad de repercutir en el estado de ánimo de los empleados. La luz artificial, la falta de orden o el ruido, entre otros, afectan la la comodidad, la percepción y el clima laboral. Transformar el espacio, mejora las relaciones personales dentro del trabajo. En este caso, el área de trabajo debe disponer de un ambiente de aprendizaje convencional y de un ambiente de taller para el mantenimiento, con un área mínima de 400 m2.
+    
+    p Es este cuadro de texto de color, se propone colocar dos imágenes que ilustren cada una de las áreas de trabajo nombradas en el texto que describe el numeral.
 
     .row.justify-content-around.mb-5
       .col-md-5(data-aos="zoom-in")
@@ -29,19 +27,18 @@
       .col-md-5(data-aos="zoom-in")
         img(src="@/assets/curso/temas/t2/f3.png", alt="Ambiente de taller")
 
-    Separador
-
-    #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Equipos
+    .row.mt-5
+      h3 Equipos
 
     p Existen diferentes tipos de equipos para la ejecución de las tareas de mantenimiento y ensamble electrónico. A continuación, se presentan algunos de ellos:
 
-    .tarjeta.bg_slide_1.p-4.mb-5
+    .tarjeta.bgr1-tema2.p-4.mb-5
       SlyderA(tipo="b")
         .row.align-items-center.justify-content-around
           .col-md-6.mb-4.mb-md-0
             h4 Equipo de diagnóstico avanzado de tarjetas electrónicas
             p Aunque suelen ser equipos poco conocidos por su alto costo, así como por la experiencia requerida para el manejo correcto por el personal que lo opere, es un equipo que permite diagnosticar por medio de un software los fallos presentados en cada módulo de las tarjetas.
+
           .col-md-4(data-aos="fade-up-right")
             figure
               img(src='@/assets/curso/temas/t2/f4.png', alt='imagen relacionada')
@@ -67,30 +64,22 @@
             figure
               img(src='@/assets/curso/temas/t2/f7.png', alt='imagen relacionada')
 
-    Separador
-
-    #t_2_3.titulo-segundo.color-acento-contenido.mb-5
-      h2 2.3 Herramientas
+    .row.mt-5  
+      h3 Herramientas
 
     p Las herramientas son instrumentos necesarios para la ejecución adecuada de cualquier montaje o reparación de los dispositivos. Existen de diversos tipos. A continuación, se presentan dos de ellos, las manuales y las especializadas. 
 
-    h3 Herramientas manuales 
+    h4 Herramientas manuales 
 
     p Un taller electrónico debe de tener unas buenas herramientas manuales, utilizadas en todas las reparaciones, entre los más comunes están:
 
     .col-md-10.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido
-        p.mb-0 
-          b Figura 1.
-          br
-          em Herramientas manuales
       figure(data-aos="zoom-in")
         img(src="@/assets/curso/temas/t2/f8.svg", alt="Herramientas manuales").mb-4
-        figcaption Fuente. Elaboración propia
 
-    h3 Herramientas especializadas
+    h4 Herramientas especializadas
 
-    p Dentro de las herramientas utilizadas se requieren algunas que son más especializadas, para realizar trabajos muy específicos.
+    p Dentro de las herramientas utilizadas, se requiere de algunas que son más especializadas, para realizar trabajos muy específicos:
 
     TabsB.color-acento-botones.mb-5.tabs_bg_1
       .py-4.py-md-5(titulo="Estado de soldadura electrónica" :icono="require('@/assets/curso/temas/t2/f9.svg')")
@@ -115,12 +104,10 @@
             figure
               img(src='@/assets/curso/temas/t2/f14.png', alt='imagen relacionada')
 
-    Separador
+    .row.mt-5
+      h3 Elementos de trabajo
 
-    #t_2_4.titulo-segundo.color-acento-contenido
-      h2 2.4 Elementos de trabajo
-
-    p Se requieren los siguientes elementos para el desempeño óptimo de las labores.
+    p Se requieren los siguientes elementos para el desempeño óptimo de las labores:
 
     TabsC.color-acento-botones.mb-5
       .py-3.py-md-4(titulo="Muebles colaborativos")
@@ -139,10 +126,8 @@
             figure
               img(src='@/assets/curso/temas/t2/f16.png', alt='Texto que describa la imagen')
 
-    Separador
-
-    #t_2_5.titulo-segundo.color-acento-contenido
-      h2 2.5 Condiciones técnicas, térmicas y atmosféricas
+    .row.mt-5
+      h3 Condiciones técnicas, térmicas y atmosféricas
 
     p Las condiciones técnicas, térmicas y atmosféricas hacen referencia a las condiciones específicas que deben tener los elementos de trabajo para el desempeño correcto de la labor asignada, teniendo en cuenta la especificidad y el lugar de trabajo. El video que se presenta a continuación presenta de manera gráfica cada una de ellas:
 
@@ -150,12 +135,10 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    Separador
+    .row.mt-5
+      h3 Aprovisionamiento y solicitud
 
-    #t_2_6.titulo-segundo.color-acento-contenido.mb-5
-      h2 2.6 Aprovisionamiento y solicitud
-
-    p El aprovisionamiento y solicitud es muy particular para cada organización, estos se realizan de acuerdo con sus necesidades y procesos.
+    p El aprovisionamiento y solicitud de materiales y servicios, es muy particular para cada organización, porque se realizan de acuerdo con sus necesidades y procesos; en este caso, se habla de manejo de proveedores y manual de instrucciones:
 
     TabsC.color-acento-botones.mb-5
       .py-3.py-md-4(titulo="Manejo de proveedores")
@@ -169,8 +152,7 @@
       .py-3.py-md-4(titulo="Manual de Instrucciones")
         .row.justify-content-around.align-items-center
           .col-md-6
-            p Las necesidades de las empresas determinan la compra de los repuestos más críticos para el proceso. Para piezas o partes específicas que deben ser importadas, se debe tener presente los tiempos que implica este proceso, por ello, es importante conocer las fechas de vencimiento y el costo de las partes que se tengan en 
-              em stock.
+            p Las necesidades de las empresas determinan la compra de los repuestos más críticos para el proceso. Para piezas o partes específicas que deben ser importadas, se deben tener en cuenta los tiempos que implica este proceso; por eso, es importante conocer las fechas de vencimiento y el costo de las partes que se tengan en stock.
           .col-md-6.mb-4.mb-md-0(data-aos="fade-left")
             figure
               img(src='@/assets/curso/temas/t2/f18.png', alt='Texto que describa la imagen')

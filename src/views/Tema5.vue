@@ -8,8 +8,8 @@
       h1 Seguridad y salud en el trabajo
 
     p La seguridad es una premisa para todos los seres humanos, cuidar la integridad de cada individuo de una organización debe ser responsabilidad de todos y cada uno de los miembros de estas. Es así como las instituciones encargadas de velar por la seguridad y salud en el trabajo han diseñado e implementado diferentes medidas y estrategias que permitan cumplir con esta premisa.
-    p A continuación, se presentan los elementos que deben ser considerados para garantizar la seguridad y salud en el trabajo.
-      
+    p A continuación, se presentan los elementos que deben ser considerados para garantizar la seguridad y salud en el trabajo:
+    
     ImagenInfografica.color-primario
       template(v-slot:imagen)
         img(src='@/assets/curso/temas/t5/f1.png', alt='Texto que describa la imagen')

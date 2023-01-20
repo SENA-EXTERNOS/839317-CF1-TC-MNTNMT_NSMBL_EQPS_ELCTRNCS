@@ -39,26 +39,6 @@ export default {
         numero: '1',
         titulo: 'Gestión de la información',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Formatos y registros',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Documentación e información',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Hoja de vida de equipos',
-            hash: 't_1_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
@@ -66,44 +46,6 @@ export default {
         numero: '2',
         titulo: 'Entorno de trabajo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Área de trabajo',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Equipos',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Herramientas',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Elementos de trabajo',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Condiciones técnicas, térmicas y atmosféricas',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Aprovisionamiento y solicitud',
-            hash: 't_2_6',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -212,6 +154,20 @@ export default {
         'es un término propio del SENA. Se refiere al espacio donde el aprendiz desarrolla sus habilidades, el cual puede estar dotado o no de tecnologías específicas o simplemente de mobiliarios comunes.',
     },
     {
+      termino: 'Administración',
+      significado:
+        'es la disciplina que estudia el uso óptimo de los recursos en una organización, empresa o negocio.',
+    },
+    {
+      termino: 'Convergencia',
+      significado: 'unión de varias líneas en un punto.',
+    },
+    {
+      termino: 'Ergonomía',
+      significado:
+        'estudia la relación que existe de un objeto, vehículo o herramientas con las condiciones y características físicas, anatómicas y psicológicas del que las va a usar.',
+    },
+    {
       termino: 'Código',
       significado:
         'es la combinación de diferentes símbolos, por lo general, son alfanuméricos, organizados de una forma determinada.',
@@ -260,50 +216,13 @@ export default {
   referencias: [
     {
       referencia:
-        'ABI Electronics Ltd. (2022). BoardMaster 19" Rack [Imagen]. Recuperado el 18 agosto de 2022 de ',
-      link:
-        'https://www.abielectronics.co.uk/Products/images/BoardMaster8000PLUS.png. ',
+        'Escuela de diseño de Madrid. (s/f). <em>¿Qué es el diseño de arquitectura?</em>',
+      link: 'https://esdima.com/que-es-el-diseno-de-arquitectura/',
     },
     {
       referencia:
-        'Arango, N. (2019). La Ley 1480 de 2011 y su impacto en la estructura obligacional de las entidades fiduciarias como voceras de las fiducias de administración y pagos, también llamadas fiducias completas en desarrollos inmobiliarios:  hacia un cambio de paradigma. . Bogotá: Universidad Externado de Colombia, 2019, en ',
-      link:
-        'https://bdigital.uexternado.edu.co/entities/publication/fd8708c1-7f31-4c0f-9387-ffaed440dad1',
-    },
-    {
-      referencia:
-        'Blanco, L., & Sánchez, Á. (2002). “Equipos Electrónicos. Mantenimiento.” Mantenimiento de equipos electrónicos (pp. [1]-13). Paraninfo. ',
-      link:
-        'https://link.gale.com/apps/doc/CX2190100007/GVRL?u=sena&sid=bookmark-GVRL&xid=08458c9c ',
-    },
-    {
-      referencia:
-        'Carrasco, M. A., García, L. M., & Núñez, J. (2012). Instalaciones eléctricas básicas. Editorial Paraninfo.',
-    },
-    {
-      referencia:
-        'García, S. (2019). Ingeniería del mantenimiento: manual práctico para la gestión eficaz del mantenimiento. Editorial Renovetec.',
-    },
-    {
-      referencia:
-        'Garrido, S. G. (2010). Organización y gestión integral de mantenimiento. Ediciones Diaz de Santos.',
-    },
-    {
-      referencia:
-        'Kosow, I. L. (1979). Control de máquinas eléctricas. Reverté.',
-    },
-    {
-      referencia:
-        'Hernández Alfonso, Pablo Manuel, & Medina Peña, Diarelys , & Suárez Fragas, Yanelis (2015). Sistema automatizado para la gestión del mantenimiento de equipos (módulos administración y solicitud de servicio). Revista Ciencias Técnicas Agropecuarias, 24 ( ),85-90.[fecha de Consulta 30 de Agosto de 2022]. ISSN: 1010-2760. Disponible en: ',
-      link: 'https://www.redalyc.org/articulo.oa?id=93243475015 ',
-    },
-    {
-      referencia:
-        'Nuevo, A. (2020). Montaje y mantenimiento eléctrico-electrónico. Editorial Paraninfo.',
-    },
-    {
-      referencia:
-        'Vahos, J., Pino, A., & Castro, J. (2019). Desarrollo de una herramienta de software para la gestión del mantenimiento de infraestructura en el SENA regional Antioquia. Revista CINTEX, 24(1), 13-19.',
+        'Way, M. (1991). <em>Dibujo con perspectivas, utilización de uno y más puntos de fuga</em>. Ediciones Omega.',
+      link: '',
     },
   ],
   creditos: {
