@@ -216,12 +216,55 @@ export default {
   referencias: [
     {
       referencia:
-        'Escuela de diseño de Madrid. (s/f). <em>¿Qué es el diseño de arquitectura?</em>',
-      link: 'https://esdima.com/que-es-el-diseno-de-arquitectura/',
+        'ABI Electronics Ltd. (2022). <em>BoardMaster</em> 19" Rack [Imagen].',
+      link:
+        'https://www.abielectronics.co.uk/Products/images/BoardMaster8000PLUS.png.',
     },
     {
       referencia:
-        'Way, M. (1991). <em>Dibujo con perspectivas, utilización de uno y más puntos de fuga</em>. Ediciones Omega.',
+        'Arango, N. (2019). <em>La Ley 1480 de 2011 y su impacto en la estructura obligacional de las entidades fiduciarias como voceras de las fiducias de administración y pagos, también llamadas fiducias completas en desarrollos inmobiliarios:  hacia un cambio de paradigma</em>. Bogotá: Universidad Externado de Colombia.',
+      link:
+        'https://bdigital.uexternado.edu.co/entities/publication/fd8708c1-7f31-4c0f-9387-ffaed440dad1',
+    },
+    {
+      referencia:
+        'Blanco, L., & Sánchez, Á. (2002). <em>“Equipos Electrónicos. Mantenimiento.” Mantenimiento de equipos electrónicos</em> (pp. [1]-13). Paraninfo.',
+      link:
+        'https://link.gale.com/apps/doc/CX2190100007/GVRL?u=sena&sid=bookmark-GVRL&xid=08458c9c ',
+    },
+    {
+      referencia:
+        'Carrasco, M. A., García, L. M., & Núñez, J. (2012). <em>Instalaciones eléctricas básicas</em>. Editorial Paraninfo.',
+      link: '',
+    },
+    {
+      referencia:
+        'García, S. (2019). <em>Ingeniería del mantenimiento: manual práctico para la gestión eficaz del mantenimiento</em>. Editorial Renovetec.',
+      link: '',
+    },
+    {
+      referencia:
+        'Garrido, S. G. (2010). <em>Organización y gestión integral de mantenimiento<em>. Ediciones Diaz de Santos.',
+      link: '',
+    },
+    {
+      referencia:
+        'Hernández, A., Pablo, M., Medina Peña, D. & Suárez Fragas, Y. (2015). Sistema automatizado para la gestión del mantenimiento de equipos (módulos administración y solicitud de servicio). <em>Revista Ciencias Técnicas Agropecuarias, 24</em>, p.85-90ISSN: 1010-2760.',
+      link: 'https://www.redalyc.org/articulo.oa?id=93243475015',
+    },
+    {
+      referencia:
+        'Kosow, I. L. (1979). <em>Control de máquinas eléctricas</em>. Reverté.',
+      link: '',
+    },
+    {
+      referencia:
+        'Nuevo, A. (2020). <em>Montaje y mantenimiento eléctrico-electrónico</em>. Editorial Paraninfo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Vahos, J., Pino, A., & Castro, J. (2019). Desarrollo de una herramienta de software para la gestión del mantenimiento de infraestructura en el SENA regional Antioquia. <em>Revista CINTEX, 24</em>(1), p. 13-19.',
       link: '',
     },
   ],
