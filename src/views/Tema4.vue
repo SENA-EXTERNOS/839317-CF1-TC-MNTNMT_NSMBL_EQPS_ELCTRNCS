@@ -8,7 +8,7 @@
       h1 Documentación técnica
 
     p Son documentos que brindan información técnica relevante sobre los equipos; generalmente, son proporcionados por los fabricantes y, en algunos casos, son construidos por las organizaciones, basándose en sus necesidades; veamos a continuación, los manuales:
-
+    
     .row.align-items-center.justify-content-center
       .col-md-9.order-sm-last.order-sm-first
         TabsA.color-acento-contenido

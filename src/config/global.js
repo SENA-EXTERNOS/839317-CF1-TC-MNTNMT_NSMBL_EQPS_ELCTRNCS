@@ -151,7 +151,7 @@ export default {
     {
       termino: 'Ambiente de aprendizaje',
       significado:
-        'es un término propio del SENA. Se refiere al espacio donde el aprendiz desarrolla sus habilidades, el cual puede estar dotado o no de tecnologías específicas o simplemente de mobiliarios comunes.',
+        'Se refiere al espacio donde el aprendiz desarrolla sus habilidades, el cual puede estar dotado o no de tecnologías específicas o simplemente de mobiliarios comunes.',
     },
     {
       termino: 'Administración',

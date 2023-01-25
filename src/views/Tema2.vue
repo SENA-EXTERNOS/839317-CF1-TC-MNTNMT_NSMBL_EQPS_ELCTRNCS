@@ -17,9 +17,7 @@
     .row.mt-5
       h3 Área de trabajo
 
-    p El espacio de trabajo, debe ser proyectado con la capacidad de repercutir en el estado de ánimo de los empleados. La luz artificial, la falta de orden o el ruido, entre otros, afectan la la comodidad, la percepción y el clima laboral. Transformar el espacio, mejora las relaciones personales dentro del trabajo. En este caso, el área de trabajo debe disponer de un ambiente de aprendizaje convencional y de un ambiente de taller para el mantenimiento, con un área mínima de 400 m2.
-    
-    p Es este cuadro de texto de color, se propone colocar dos imágenes que ilustren cada una de las áreas de trabajo nombradas en el texto que describe el numeral.
+    p El espacio de trabajo, debe ser proyectado con la capacidad de repercutir en el estado de ánimo de los empleados. La luz artificial, la falta de orden o el ruido, entre otros, afectan a la comodidad, la percepción y el clima laboral. Transformar el espacio, mejora las relaciones personales dentro del trabajo. En este caso, el área de trabajo debe disponer de un ambiente de aprendizaje convencional y de un ambiente de taller para el mantenimiento.
 
     .row.justify-content-around.mb-5
       .col-md-5(data-aos="zoom-in")
@@ -37,7 +35,7 @@
         .row.align-items-center.justify-content-around
           .col-md-6.mb-4.mb-md-0
             h4 Equipo de diagnóstico avanzado de tarjetas electrónicas
-            p Aunque suelen ser equipos poco conocidos por su alto costo, así como por la experiencia requerida para el manejo correcto por el personal que lo opere, es un equipo que permite diagnosticar por medio de un software los fallos presentados en cada módulo de las tarjetas.
+            p Aunque suelen ser equipos poco conocidos por su alto costo, así como por la experiencia requerida para el manejo correcto por el personal que lo opere, es un equipo que permite diagnosticar por medio de un #[i software] los fallos presentados en cada módulo de las tarjetas.
 
           .col-md-4(data-aos="fade-up-right")
             figure
@@ -152,7 +150,7 @@
       .py-3.py-md-4(titulo="Manual de Instrucciones")
         .row.justify-content-around.align-items-center
           .col-md-6
-            p Las necesidades de las empresas determinan la compra de los repuestos más críticos para el proceso. Para piezas o partes específicas que deben ser importadas, se deben tener en cuenta los tiempos que implica este proceso; por eso, es importante conocer las fechas de vencimiento y el costo de las partes que se tengan en stock.
+            p Las necesidades de las empresas determinan la compra de los repuestos más críticos para el proceso. Para piezas o partes específicas que deben ser importadas, se deben tener en cuenta los tiempos que implica este proceso; por eso, es importante conocer las fechas de vencimiento y el costo de las partes que se tengan en #[i stock].
           .col-md-6.mb-4.mb-md-0(data-aos="fade-left")
             figure
               img(src='@/assets/curso/temas/t2/f18.png', alt='Texto que describa la imagen')
