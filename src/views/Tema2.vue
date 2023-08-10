@@ -115,7 +115,6 @@
               img(src='@/assets/curso/temas/t2/f15.png', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
             p Los elementos mínimos necesarios para el desempeño correcto de las labores son: 1 tablero acrílico, 1 silla, 1 gabinete con entrepaños, 1 mesa y 1 escritorio.
-            p Se requiere 1 televisor de mínimo 55- 4 k, 1 computador portátil o de escritorio con especificaciones informáticas actuales y conectividad a Internet 16.
 
       .py-3.py-md-4(titulo="Tecnologías de la Información y comunicación")
         .row.justify-content-around.align-items-center
