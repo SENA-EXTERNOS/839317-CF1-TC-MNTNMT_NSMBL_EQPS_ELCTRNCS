@@ -7,14 +7,14 @@
         span 4
       h1 Documentación técnica
 
-    p Recordemos que la documentación técnica es la que brindan información relevante sobre los equipos; generalmente, son proporcionados por los fabricantes y, en algunos casos, son construidos por las organizaciones, basándose en sus necesidades; veamos a continuación, los manuales:
+    p Recordemos que la documentación técnica es la que brinda información relevante sobre los equipos; generalmente, son proporcionados por los fabricantes y, en algunos casos, son construidos por las organizaciones, basándose en sus necesidades; veamos a continuación, los manuales:
     
     .row.align-items-center.justify-content-center
       .col-md-9.order-sm-last.order-sm-first
         TabsA.color-acento-contenido
           .tarjeta.color-acento-botones.fcab15.p-4(titulo="Manual de<br> usuario")
             p El propósito de este documento es brindar la información necesaria para el adecuado uso de un equipo, enseñando a los usuarios a utilizar las funciones y procesos de una forma correcta y efectiva, deben de ser entendibles y de fácil consulta. En su elaboración, suele incluir ilustraciones y gráficos, con instrucciones sencillas.
-          .tarjeta.color-acento-botones.fcab15.p-4(titulo="Manual de<br> fabricante")
+          .tarjeta.color-acento-botones.fcab15.p-4(titulo="Manual del<br> fabricante")
             p También conocido como manual de instrucciones, dado que debe de cumplir con 
               b todas 
               | las recomendaciones proporcionadas por el fabricante para evitar fallos y averías en los equipos y así, hacer el mejor uso de estos. Brinda información relevante acerca del empaque, transporte, cuidados especiales, así como de instalación.

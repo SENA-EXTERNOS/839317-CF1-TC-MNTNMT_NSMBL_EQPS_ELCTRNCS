@@ -16,7 +16,7 @@
 
       .tarjeta.color-acento-contenido.p-3(x="7.5%" y="80%" numero="+")
         h5 Elementos de protección
-        p.mb-0.text-white Los elementos de protección personal, también conocidos como EPP, son utilizados dependiendo de cada actividad y su función es la protección ante los posibles riesgos o amenazas en seguridad que atenten contra de la integridad del trabajador. Cada trabajador los debe portar de forma individual y personal, no deben ser compartidos, ni reutilizados después de su vida útil o deterioro. Los EPP más utilizados en el taller son: gafas de seguridad, guantes de nitrilo, tapabocas, de ser necesario, también pueden solicitarse Botas de seguridad y protección auditiva.
+        p.mb-0.text-white Los elementos de protección personal, también conocidos como EPP, son utilizados dependiendo de cada actividad y su función es la protección ante los posibles riesgos o amenazas en seguridad que atenten contra la integridad del trabajador. Cada trabajador los debe portar de forma individual y personal, no deben ser compartidos, ni reutilizados después de su vida útil o deterioro. Los EPP más utilizados en el taller son: gafas de seguridad, guantes de nitrilo, tapabocas, de ser necesario, también pueden solicitarse botas de seguridad y protección auditiva.
 
       .tarjeta.color-acento-botones.p-3(x="21.5%" y="20%" numero="+")
         h5 Prevención de riesgos

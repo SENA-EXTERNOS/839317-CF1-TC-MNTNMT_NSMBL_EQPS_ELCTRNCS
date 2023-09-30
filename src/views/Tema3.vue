@@ -36,7 +36,7 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t3/img3.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               h3.text-white.text-center Calibración
-              p.text-white.text-center.text-small Los equipos e instrumentos especializados requieren, a menudo, deben ser calibrados para tener mediciones confiables y conocer el estado de desgaste de cada uno de sus componentes. Este tipo de tarea se debe realizar con patrones y organizaciones certificadas, por lo cual es un proceso costoso y, en algunos casos, demorados. Cabe anotar que no todos los instrumentos y equipos deben ser calibrados, son exactos y con un grado alto de confiabilidad.
+              p.text-white.text-center.text-small Los equipos e instrumentos especializados requieren, a menudo, ser calibrados para tener mediciones confiables y conocer el estado de desgaste de cada uno de sus componentes. Este tipo de tarea se debe realizar con patrones y organizaciones certificadas, por lo cual es un proceso costoso y, en algunos casos, demorados. Cabe anotar que no todos los instrumentos y equipos deben ser calibrados, son exactos y con un grado alto de confiabilidad.
 
       .col-sm-6.col-xl-5
         .tarjeta.tarjeta-slide.izquierda.color-secundario(@mouseover="indicadorTarjetaSlide = false")
