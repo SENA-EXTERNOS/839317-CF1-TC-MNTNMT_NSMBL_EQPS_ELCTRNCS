@@ -80,7 +80,7 @@
     p Dentro de las herramientas utilizadas, se requiere de algunas que son más especializadas, para realizar trabajos muy específicos:
 
     TabsB.color-acento-botones.mb-5.tabs_bg_1
-      .py-4.py-md-5(titulo="Estado de soldadura electrónica" :icono="require('@/assets/curso/temas/t2/f9.svg')")
+      .py-4.py-md-5(titulo="Estación de soldadura electrónica" :icono="require('@/assets/curso/temas/t2/f9.svg')")
         .row.align-items-center.px-4
           .col-md-7.mb-4.mb-md-0
             p Este tipo de herramientas son utilizadas por personas expertas en montajes y reparaciones para soldar componentes electrónicos, que son bastante delicados y las partes son muy pequeñas. Dentro de las reparaciones más comunes se encuentran los smartphones, consolas de video, computadores y electrodomésticos.
