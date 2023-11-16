@@ -265,7 +265,8 @@ export default {
     {
       referencia:
         'Vahos, J., Pino, A., & Castro, J. (2019). Desarrollo de una herramienta de software para la gestión del mantenimiento de infraestructura en el SENA regional Antioquia. <em>Revista CINTEX, 24</em>(1), p. 13-19.',
-      link: '',
+      link:
+        'https://revistas.pascualbravo.edu.co/index.php/cintex/article/view/331',
     },
   ],
   creditos: {
